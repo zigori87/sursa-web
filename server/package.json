@@ -1,0 +1,17 @@
+{
+  "name": "youron-server",
+  "version": "1.0.0",
+  "description": "Backend API for SURSA website (GPT proxy)",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "openai": "^6.14.0"
+  }
+}

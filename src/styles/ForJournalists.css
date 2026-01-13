@@ -1,0 +1,153 @@
+/* src/styles/ForJournalists.css */
+
+.fj-page {
+  min-height: 100vh;
+  padding: 80px 24px 56px;
+  background: radial-gradient(circle at top, #071a24 0, #020710 55%, #000 100%);
+  color: #f5f7fb;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+    "Segoe UI", sans-serif;
+}
+
+.fj-container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* ===============================
+   HEADER
+   =============================== */
+
+.fj-eyebrow {
+  font-size: 13px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #86e7ff;
+  margin-bottom: 8px;
+}
+
+.fj-title {
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.fj-intro {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #c6d2e3;
+  margin-bottom: 32px;
+}
+
+/* ===============================
+   SECTIONS
+   =============================== */
+
+.fj-section {
+  margin-bottom: 32px;
+}
+
+.fj-section--last {
+  margin-bottom: 0;
+}
+
+.fj-section-title {
+  position: relative;
+  padding-left: 18px;
+
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.fj-section-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 12px;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #57f0c4, #86e7ff);
+  opacity: 0.9;
+}
+
+.fj-subtitle {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom: 6px;
+}
+
+.fj-text {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #c6d2e3;
+}
+
+/* ===============================
+   LISTS
+   =============================== */
+
+.fj-list {
+  list-style: disc;
+  padding-left: 18px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #c6d2e3;
+}
+
+.fj-list li + li {
+  margin-top: 6px;
+}
+
+/* ===============================
+   Q&A (card style)
+   =============================== */
+
+.fj-qa-item {
+  position: relative;
+  background:
+    radial-gradient(
+      circle at 0% 0%,
+      rgba(87, 240, 196, 0.08),
+      transparent 55%
+    ),
+    rgba(4, 18, 32, 0.8);
+
+  border-radius: 14px;
+  padding: 12px 14px;
+  border: 1px solid rgba(135, 222, 255, 0.24);
+
+  /* spacing between cards */
+  margin-top: 10px;
+}
+
+.fj-question {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.fj-answer {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #c6d2e3;
+}
+
+/* ===============================
+   MOBILE
+   =============================== */
+
+@media (max-width: 768px) {
+  .fj-page {
+    padding: 72px 16px 40px;
+  }
+
+  .fj-title {
+    font-size: 26px;
+  }
+}

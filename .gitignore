@@ -1,0 +1,26 @@
+# dependencies
+node_modules/
+
+# env
+.env
+.env.*
+.vercel
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS junk
+.DS_Store
+
+# Vite build output (не коммитим)
+dist/
+.vite/
+
+# Big media (иначе GitHub 100MB лимит)
+public/videos/*.mp4
+dist/videos/*.mp4
+*.mp4

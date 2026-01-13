@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /contracts
+Disallow: /old
+
+Sitemap: https://sursa.ai/sitemap.xml

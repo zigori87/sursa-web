@@ -1,0 +1,11 @@
+SURSA is a private offline AI assistant designed to run on hardware owned by the user. It operates as a local “brain” for the home, maintaining a continuous internal channel instead of starting a new session every time. The system stores long-term memory in structured text form — not raw audio or video — allowing it to support a person or family over months and years while remaining lightweight, transparent and private.
+
+Unlike cloud-based assistants that depend on corporate infrastructure, SURSA is built around local processing, user control and predictable behaviour. The device works like a household appliance: plug it in, speak to it in your own language, and it manages home devices, retrieves information when needed and helps with routines, planning and everyday tasks. Online access is optional and only activated when the user requests it.
+
+The assistant can analyse manuals, understand how home devices operate and act as a bridge between the user and their environment. It supports roles ranging from a digital secretary for business to a helper in industrial or household environments — always within user-defined boundaries.
+
+SURSA includes a built-in “teacher mode”, aimed at encouraging safe, legal and constructive behaviour. Instead of helping with harmful or risky actions, it suggests lawful alternatives and explains the consequences. The long-term vision is simple: intelligence that belongs to individuals, not institutions — an AI that lives inside the home, grows with the user and remains consistently on their side.
+
+SURSA is a private offline AI assistant that runs on your own hardware, remembers your life in long-term text form and helps you manage your home, work and routines — always under your full control.
+
+SURSA is a locally running AI assistant that lives inside your home, not in the cloud. It processes everything on your hardware, keeps a long-term memory of your life and supports you with home devices, planning and daily routines — while protecting your privacy and remaining fully under your control.

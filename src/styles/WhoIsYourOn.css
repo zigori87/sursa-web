@@ -1,0 +1,178 @@
+/* src/styles/WhoIsYourOn.css */
+
+.who-page {
+  min-height: 100vh;
+  padding: 96px 24px 40px;
+  background: radial-gradient(circle at top, #0b1f29 0, #020711 55%, #000 100%);
+  color: #f5f7fb;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+    "Segoe UI", sans-serif;
+}
+
+.who-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* ===============================
+   HERO
+   =============================== */
+
+.who-hero {
+  margin-bottom: 56px;
+  text-align: left;
+}
+
+.who-eyebrow {
+  font-size: 13px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #86e7ff;
+  margin-bottom: 12px;
+}
+
+.who-title {
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.who-subtitle {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #c6d2e3;
+  max-width: 720px;
+}
+
+/* ===============================
+   SECTIONS
+   =============================== */
+
+.who-section {
+  margin-bottom: 48px;
+}
+
+.who-section-title {
+  position: relative;
+  padding-left: 18px;
+
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.who-section-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 12px;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #57f0c4, #86e7ff);
+  opacity: 0.9;
+}
+
+.who-text {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #c6d2e3;
+}
+
+/* ===============================
+   LISTS & STEPS
+   =============================== */
+
+.who-list {
+  margin-top: 12px;
+  padding-left: 18px;
+  list-style: disc;
+
+  font-size: 14px;
+  line-height: 1.6;
+  color: #c6d2e3;
+}
+
+.who-steps {
+  margin-top: 12px;
+  padding-left: 20px;
+  list-style: decimal;
+
+  font-size: 14px;
+  line-height: 1.6;
+  color: #c6d2e3;
+}
+
+/* ===============================
+   GRID / CARDS
+   =============================== */
+
+.who-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.who-card {
+  position: relative;
+  padding: 16px 18px;
+  border-radius: 16px;
+
+  background:
+    radial-gradient(circle at 0% 0%, rgba(87, 240, 196, 0.1), transparent 55%),
+    rgba(4, 18, 32, 0.85);
+
+  border: 1px solid rgba(135, 222, 255, 0.26);
+}
+
+.who-card h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.who-card p {
+  font-size: 14px;
+  color: #c6d2e3;
+  line-height: 1.6;
+}
+
+/* ===============================
+   FAQ / Q&A BLOCKS
+   =============================== */
+
+.who-faq-item {
+  margin-top: 16px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(135, 222, 255, 0.12);
+}
+
+.who-faq-item h3 {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.who-faq-item p {
+  font-size: 14px;
+  color: #c6d2e3;
+  line-height: 1.6;
+}
+
+/* ===============================
+   MOBILE
+   =============================== */
+
+@media (max-width: 768px) {
+  .who-page {
+    padding: 80px 16px 32px;
+  }
+
+  .who-title {
+    font-size: 30px;
+  }
+
+  .who-section {
+    margin-bottom: 40px;
+  }
+}

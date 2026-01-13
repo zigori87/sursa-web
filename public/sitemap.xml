@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+>
+  <!-- ROOT -->
+  <url>
+    <loc>https://sursa.ai/</loc>
+  </url>
+
+  <!-- ЯЗЫКОВЫЕ ДОМАШКИЕ СТРАНИЦЫ -->
+  <url>
+    <loc>https://sursa.ai/en/</loc>
+  </url>
+  <url>
+    <loc>https://sursa.ai/ru/</loc>
+  </url>
+  <url>
+    <loc>https://sursa.ai/de/</loc>
+  </url>
+  <url>
+    <loc>https://sursa.ai/fr/</loc>
+  </url>
+
+  <!-- OON PAGE -->
+  <url>
+    <loc>https://sursa.ai/oon</loc>
+  </url>
+
+  <!-- WHO IS SURSA -->
+  <url>
+    <loc>https://sursa.ai/who-is-sursa</loc>
+  </url>
+
+  <!-- PRESS CENTER -->
+  <url>
+    <loc>https://sursa.ai/press-center</loc>
+  </url>
+
+  <!-- FOR JOURNALISTS -->
+  <url>
+    <loc>https://sursa.ai/for-journalists</loc>
+  </url>
+
+  <!-- ЛОКАЛИЗОВАННЫЕ ВЕРСИИ ОСНОВНЫХ СТРАНИЦ -->
+
+  <!-- OON -->
+  <url><loc>https://sursa.ai/en/oon</loc></url>
+  <url><loc>https://sursa.ai/ru/oon</loc></url>
+  <url><loc>https://sursa.ai/de/oon</loc></url>
+  <url><loc>https://sursa.ai/fr/oon</loc></url>
+
+  <!-- WHO IS SURSA -->
+  <url><loc>https://sursa.ai/en/who-is-sursa</loc></url>
+  <url><loc>https://sursa.ai/ru/who-is-sursa</loc></url>
+  <url><loc>https://sursa.ai/de/who-is-sursa</loc></url>
+  <url><loc>https://sursa.ai/fr/who-is-sursa</loc></url>
+
+  <!-- PRESS CENTER -->
+  <url><loc>https://sursa.ai/en/press-center</loc></url>
+  <url><loc>https://sursa.ai/ru/press-center</loc></url>
+  <url><loc>https://sursa.ai/de/press-center</loc></url>
+  <url><loc>https://sursa.ai/fr/press-center</loc></url>
+
+  <!-- FOR JOURNALISTS -->
+  <url><loc>https://sursa.ai/en/for-journalists</loc></url>
+  <url><loc>https://sursa.ai/ru/for-journalists</loc></url>
+  <url><loc>https://sursa.ai/de/for-journalists</loc></url>
+  <url><loc>https://sursa.ai/fr/for-journalists</loc></url>
+</urlset>
