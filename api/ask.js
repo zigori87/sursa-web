@@ -1,3 +1,4 @@
+// api/ask.js
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -39,16 +40,29 @@ export default async function handler(req, res) {
     const openai = new OpenAI({ apiKey });
 
     const response = await openai.responses.create({
-      model: "gpt-4.1-mini",
+      // ВАЖНО: модель должна существовать в твоём списке /v1/models
+      model: "gpt-4o-mini",
       input: [
         { role: "system", content: systemPrompt },
-        { role: "user", content: question }
-      ]
+        { role: "user", content: question },
+      ],
     });
 
     return res.status(200).json({ answer: response.output_text ?? "" });
   } catch (err) {
+    // Пытаемся вытащить понятную причину из ошибки OpenAI
+    const status = err?.status || 500;
+    const msg =
+      err?.error?.message ||
+      err?.response?.data?.error?.message ||
+      err?.message ||
+      "unknown_error";
+
     console.error("api/ask error:", err);
-    return res.status(500).json({ error: "server_error" });
+
+    return res.status(status).json({
+      error: "server_error",
+      details: msg,
+    });
   }
 }
